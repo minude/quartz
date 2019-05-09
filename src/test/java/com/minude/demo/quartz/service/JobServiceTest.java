@@ -1,6 +1,5 @@
 package com.minude.demo.quartz.service;
 
-import com.minude.demo.quartz.JobServiceImpl;
 import com.minude.demo.quartz.entity.QuartzJob;
 import com.minude.demo.quartz.task.HelloTask;
 import org.junit.Test;

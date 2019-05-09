@@ -1,10 +1,10 @@
-package com.minude.demo.quartz;
+package com.minude.demo.quartz.service;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.minude.demo.quartz.dao.QuartzJobMapper;
 import com.minude.demo.quartz.entity.QuartzJob;
-import com.minude.demo.quartz.web.common.RestResult;
+import com.minude.demo.quartz.common.RestResult;
 import org.quartz.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

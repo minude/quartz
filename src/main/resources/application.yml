@@ -5,7 +5,7 @@ spring:
     username: root
     password: root
   quartz:
-    #Ïà¹ØÊôĞÔÅäÖÃ
+    #å±æ€§é…ç½®
     properties:
       org:
         quartz:
@@ -24,16 +24,16 @@ spring:
             threadCount: 10
             threadPriority: 5
             threadsInheritContextClassLoaderOfInitializingThread: true
-    #Êı¾İ¿â·½Ê½
+    #æ•°æ®åº“æ–¹å¼å­˜å‚¨å®šæ—¶ä»»åŠ¡
     job-store-type: jdbc
 
-#mybatisÅäÖÃ
+#mybatisç›¸å…³é…ç½®
 mybatis:
   type-aliases-package: com.minude.demo.quartz.entity
   mapper-locations: classpath:mapper/*.xml
-#·ÖÒ³ÅäÖÃ, pageHelperÊÇÎïÀí·ÖÒ³²å¼ş
+#åˆ†é¡µæ’ä»¶ pageHelperç›¸å…³é…ç½®
 pagehelper:
-  #4.0.0ÒÔºó°æ±¾¿ÉÒÔ²»ÉèÖÃ¸Ã²ÎÊı£¬¸ÃÊ¾ÀıÖĞÊÇ5.1.4
+  #æ•°æ®åº“æ–¹è¨€
   helper-dialect: mysql
-  #ÆôÓÃºÏÀí»¯£¬Èç¹ûpageNum<1»á²éÑ¯µÚÒ»Ò³£¬Èç¹ûpageNum>pages»á²éÑ¯×îºóÒ»Ò³
+  #åˆç†åŒ–é…ç½®pageNum<1ä¸ºç¬¬ä¸€é¡µ  pageNum>pagesæœ€åä¸€é¡µ
   reasonable: true

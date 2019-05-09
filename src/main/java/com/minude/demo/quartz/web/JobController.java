@@ -1,9 +1,9 @@
 package com.minude.demo.quartz.web;
 
 import com.github.pagehelper.PageInfo;
-import com.minude.demo.quartz.JobServiceImpl;
+import com.minude.demo.quartz.service.JobServiceImpl;
 import com.minude.demo.quartz.entity.QuartzJob;
-import com.minude.demo.quartz.web.common.RestResult;
+import com.minude.demo.quartz.common.RestResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

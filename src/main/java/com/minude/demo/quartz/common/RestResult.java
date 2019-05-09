@@ -1,4 +1,4 @@
-package com.minude.demo.quartz.web.common;
+package com.minude.demo.quartz.common;
 
 import lombok.Data;
 
